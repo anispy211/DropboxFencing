@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6794F3D1D09EBEC00743670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F3C1D09EBEC00743670 /* main.m */; };
+		B6794F401D09EBEC00743670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F3F1D09EBEC00743670 /* AppDelegate.m */; };
+		B6794F431D09EBEC00743670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F421D09EBEC00743670 /* ViewController.m */; };
+		B6794F461D09EBEC00743670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6794F441D09EBEC00743670 /* Main.storyboard */; };
+		B6794F481D09EBEC00743670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6794F471D09EBEC00743670 /* Images.xcassets */; };
+		B6794F4B1D09EBEC00743670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6794F491D09EBEC00743670 /* LaunchScreen.xib */; };
+		B6794F571D09EBED00743670 /* FencingDBPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F561D09EBED00743670 /* FencingDBPOCTests.m */; };
+		B6794F621D09EC2300743670 /* DropBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F611D09EC2300743670 /* DropBoxManager.m */; };
+		B6794F641D09EF6200743670 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6794F631D09EF6200743670 /* DropboxSDK.framework */; };
+		B6794F681D09F76200743670 /* DaBaDee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6794F671D09F76200743670 /* DaBaDee.mp3 */; };
+		B6794F6A1D09F99200743670 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6794F691D09F99200743670 /* QuartzCore.framework */; };
+		B6794F6C1D09F99900743670 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6794F6B1D09F99900743670 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6794F511D09EBEC00743670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6794F2F1D09EBEC00743670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6794F361D09EBEC00743670;
+			remoteInfo = FencingDBPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6794F371D09EBEC00743670 /* FencingDBPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FencingDBPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6794F3B1D09EBEC00743670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6794F3C1D09EBEC00743670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6794F3E1D09EBEC00743670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6794F3F1D09EBEC00743670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6794F411D09EBEC00743670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6794F421D09EBEC00743670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6794F451D09EBEC00743670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6794F471D09EBEC00743670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6794F4A1D09EBEC00743670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6794F501D09EBEC00743670 /* FencingDBPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FencingDBPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6794F551D09EBEC00743670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6794F561D09EBED00743670 /* FencingDBPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FencingDBPOCTests.m; sourceTree = "<group>"; };
+		B6794F601D09EC2300743670 /* DropBoxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBoxManager.h; sourceTree = "<group>"; };
+		B6794F611D09EC2300743670 /* DropBoxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBoxManager.m; sourceTree = "<group>"; };
+		B6794F631D09EF6200743670 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = FencingDBPOC/DropboxSDK.framework; sourceTree = "<group>"; };
+		B6794F671D09F76200743670 /* DaBaDee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DaBaDee.mp3; sourceTree = "<group>"; };
+		B6794F691D09F99200743670 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6794F6B1D09F99900743670 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6794F341D09EBEC00743670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6794F6C1D09F99900743670 /* Security.framework in Frameworks */,
+				B6794F6A1D09F99200743670 /* QuartzCore.framework in Frameworks */,
+				B6794F641D09EF6200743670 /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6794F4D1D09EBEC00743670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6794F2E1D09EBEC00743670 = {
+			isa = PBXGroup;
+			children = (
+				B6794F6B1D09F99900743670 /* Security.framework */,
+				B6794F691D09F99200743670 /* QuartzCore.framework */,
+				B6794F631D09EF6200743670 /* DropboxSDK.framework */,
+				B6794F391D09EBEC00743670 /* FencingDBPOC */,
+				B6794F531D09EBEC00743670 /* FencingDBPOCTests */,
+				B6794F381D09EBEC00743670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6794F381D09EBEC00743670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6794F371D09EBEC00743670 /* FencingDBPOC.app */,
+				B6794F501D09EBEC00743670 /* FencingDBPOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6794F391D09EBEC00743670 /* FencingDBPOC */ = {
+			isa = PBXGroup;
+			children = (
+				B6794F3E1D09EBEC00743670 /* AppDelegate.h */,
+				B6794F3F1D09EBEC00743670 /* AppDelegate.m */,
+				B6794F411D09EBEC00743670 /* ViewController.h */,
+				B6794F421D09EBEC00743670 /* ViewController.m */,
+				B6794F441D09EBEC00743670 /* Main.storyboard */,
+				B6794F601D09EC2300743670 /* DropBoxManager.h */,
+				B6794F611D09EC2300743670 /* DropBoxManager.m */,
+				B6794F671D09F76200743670 /* DaBaDee.mp3 */,
+				B6794F471D09EBEC00743670 /* Images.xcassets */,
+				B6794F491D09EBEC00743670 /* LaunchScreen.xib */,
+				B6794F3A1D09EBEC00743670 /* Supporting Files */,
+			);
+			path = FencingDBPOC;
+			sourceTree = "<group>";
+		};
+		B6794F3A1D09EBEC00743670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6794F3B1D09EBEC00743670 /* Info.plist */,
+				B6794F3C1D09EBEC00743670 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6794F531D09EBEC00743670 /* FencingDBPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6794F561D09EBED00743670 /* FencingDBPOCTests.m */,
+				B6794F541D09EBEC00743670 /* Supporting Files */,
+			);
+			path = FencingDBPOCTests;
+			sourceTree = "<group>";
+		};
+		B6794F541D09EBEC00743670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6794F551D09EBEC00743670 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6794F361D09EBEC00743670 /* FencingDBPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6794F5A1D09EBED00743670 /* Build configuration list for PBXNativeTarget "FencingDBPOC" */;
+			buildPhases = (
+				B6794F331D09EBEC00743670 /* Sources */,
+				B6794F341D09EBEC00743670 /* Frameworks */,
+				B6794F351D09EBEC00743670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FencingDBPOC;
+			productName = FencingDBPOC;
+			productReference = B6794F371D09EBEC00743670 /* FencingDBPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6794F4F1D09EBEC00743670 /* FencingDBPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6794F5D1D09EBED00743670 /* Build configuration list for PBXNativeTarget "FencingDBPOCTests" */;
+			buildPhases = (
+				B6794F4C1D09EBEC00743670 /* Sources */,
+				B6794F4D1D09EBEC00743670 /* Frameworks */,
+				B6794F4E1D09EBEC00743670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6794F521D09EBEC00743670 /* PBXTargetDependency */,
+			);
+			name = FencingDBPOCTests;
+			productName = FencingDBPOCTests;
+			productReference = B6794F501D09EBEC00743670 /* FencingDBPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6794F2F1D09EBEC00743670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Aniruddha;
+				TargetAttributes = {
+					B6794F361D09EBEC00743670 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B6794F4F1D09EBEC00743670 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B6794F361D09EBEC00743670;
+					};
+				};
+			};
+			buildConfigurationList = B6794F321D09EBEC00743670 /* Build configuration list for PBXProject "FencingDBPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6794F2E1D09EBEC00743670;
+			productRefGroup = B6794F381D09EBEC00743670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6794F361D09EBEC00743670 /* FencingDBPOC */,
+				B6794F4F1D09EBEC00743670 /* FencingDBPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6794F351D09EBEC00743670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6794F461D09EBEC00743670 /* Main.storyboard in Resources */,
+				B6794F4B1D09EBEC00743670 /* LaunchScreen.xib in Resources */,
+				B6794F481D09EBEC00743670 /* Images.xcassets in Resources */,
+				B6794F681D09F76200743670 /* DaBaDee.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6794F4E1D09EBEC00743670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6794F331D09EBEC00743670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6794F621D09EC2300743670 /* DropBoxManager.m in Sources */,
+				B6794F431D09EBEC00743670 /* ViewController.m in Sources */,
+				B6794F401D09EBEC00743670 /* AppDelegate.m in Sources */,
+				B6794F3D1D09EBEC00743670 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6794F4C1D09EBEC00743670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6794F571D09EBED00743670 /* FencingDBPOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6794F521D09EBEC00743670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6794F361D09EBEC00743670 /* FencingDBPOC */;
+			targetProxy = B6794F511D09EBEC00743670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6794F441D09EBEC00743670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6794F451D09EBEC00743670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6794F491D09EBEC00743670 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6794F4A1D09EBEC00743670 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6794F581D09EBED00743670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6794F591D09EBED00743670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6794F5B1D09EBED00743670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FencingDBPOC",
+				);
+				INFOPLIST_FILE = FencingDBPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6794F5C1D09EBED00743670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FencingDBPOC",
+				);
+				INFOPLIST_FILE = FencingDBPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6794F5E1D09EBED00743670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FencingDBPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FencingDBPOC.app/FencingDBPOC";
+			};
+			name = Debug;
+		};
+		B6794F5F1D09EBED00743670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FencingDBPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FencingDBPOC.app/FencingDBPOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6794F321D09EBEC00743670 /* Build configuration list for PBXProject "FencingDBPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6794F581D09EBED00743670 /* Debug */,
+				B6794F591D09EBED00743670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6794F5A1D09EBED00743670 /* Build configuration list for PBXNativeTarget "FencingDBPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6794F5B1D09EBED00743670 /* Debug */,
+				B6794F5C1D09EBED00743670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6794F5D1D09EBED00743670 /* Build configuration list for PBXNativeTarget "FencingDBPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6794F5E1D09EBED00743670 /* Debug */,
+				B6794F5F1D09EBED00743670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6794F2F1D09EBEC00743670 /* Project object */;
+}
