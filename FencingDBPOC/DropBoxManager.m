@@ -32,6 +32,11 @@ static DropBoxManager *singletonManager = nil;
     return singletonManager;
 }
 
+- (BOOL)isLinkedDB
+{
+    return [[DBSession sharedSession] isLinked];
+}
+
 -(void)initDropbox
 {
     DBSession* session =  [[DBSession alloc] initWithAppKey:kDropbox_AppKey appSecret:kDropbox_AppSecret root:kDropbox_RootFolder];

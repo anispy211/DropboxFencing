@@ -14,10 +14,16 @@
     DropBoxManager *objManager;
 }
 
+@property (nonatomic,weak) IBOutlet UIButton * dropBoxButton;
+@property (nonatomic,weak) IBOutlet UIButton * logoutDropBoxButton;
+
+@property (nonatomic,weak) IBOutlet UIButton * audioFileShareButton;
+@property (nonatomic,weak) IBOutlet UIButton * videoFileShareButton;
+@property (nonatomic,weak) IBOutlet UIButton * textFileShareButton;
 
 
 -(IBAction)btnUploadFileTapped:(id)sender;
-
+- (IBAction)logoutDropBox:(id)sender;
 
 
 @end

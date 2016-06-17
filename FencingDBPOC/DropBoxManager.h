@@ -61,6 +61,12 @@ typedef enum
 //Singleton
 +(id)dropBoxManager;
 
+
+// DB is linked or not
+- (BOOL)isLinkedDB;
+
+-(void)checkForLink;
+
 //Initialize dropbox
 -(void)initDropbox;
 
