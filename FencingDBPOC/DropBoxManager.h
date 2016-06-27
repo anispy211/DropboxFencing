@@ -5,13 +5,16 @@
 //  Created by CW on 6/9/16.
 //  Copyright (c) 2016 Aniruddha. All rights reserved.
 //
-
 #import <Foundation/Foundation.h>
 #import <DropboxSDK/DropboxSDK.h>
 
-#define kDropbox_AppKey @"j7ipxq64ep0t6fk" // Provide your key here
-#define kDropbox_AppSecret @"po8d4lrtzksfif4" // Provide your secret key here
+//#define kDropbox_AppKey @"j7ipxq64ep0t6fk" // Provide your key here
+//#define kDropbox_AppSecret @"po8d4lrtzksfif4" // Provide your secret key here
 #define kDropbox_RootFolder kDBRootDropbox //Decide level access like root or app
+
+
+#define kDropbox_AppKey @"urh2qap6u6w2c68" // Provide your key here
+#define kDropbox_AppSecret @"v5gksblev1zekjh" // Provide your secret key here
 
 @protocol DropBoxDelegate;
 
@@ -75,6 +78,9 @@ typedef enum
 -(void)dropboxDidLogin;
 -(void)dropboxDidNotLogin;
 
+// Upload File And share
+-(void)uploadFileFromSourcePathAndShare:(NSString*)pstrSourcePath;
+
 //Upload file
 -(void)uploadFile;
 
@@ -98,13 +104,18 @@ typedef enum
 
 @optional
 
+
+- (void)finishedGeneratingUrl:(NSString*)url;
+- (void)failedGeneratingUrl:(NSString*)withMessage;
+
+
 - (void)finishedLogin:(NSMutableDictionary*)userInfo;
 - (void)failedToLogin:(NSString*)withMessage;
 
 - (void)finishedCreateFolder;
 - (void)failedToCreateFolder:(NSString*)withMessage;
 
-- (void)finishedUploadFile;
+- (void)finishedUploadFileForPath:(NSString *)path;
 - (void)failedToUploadFile:(NSString*)withMessage;
 
 - (void)finishedDownloadFile;

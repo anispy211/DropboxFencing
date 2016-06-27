@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qTm-7D-gie">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qTm-7D-gie">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -9,6 +10,7 @@
         <scene sceneID="dEA-Qi-OS3">
             <objects>
                 <navigationController id="qTm-7D-gie" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="P2w-ol-R4B">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -34,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="87V-g9-df7">
-                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <rect key="frame" x="20" y="0.0" width="560" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
@@ -65,7 +67,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="4ov-Bm-wek">
-                                <rect key="frame" x="16" y="64" width="568" height="536"/>
+                                <rect key="frame" x="20" y="20" width="560" height="580"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
@@ -96,18 +98,16 @@
                     </tabBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="Mn3-zk-epq"/>
-                        <segue destination="D2S-ph-zPA" kind="relationship" relationship="viewControllers" id="Tdl-We-sbO"/>
-                        <segue destination="4zg-d0-fyk" kind="relationship" relationship="viewControllers" id="eN7-U0-Hqw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rD0-Zl-0pc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1090" y="-773"/>
         </scene>
-        <!--Upload-->
+        <!--Fencing DB POC-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Fencing DB POC" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -117,7 +117,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cM-26-xRs">
-                                <rect key="frame" x="88" y="238" width="424" height="50"/>
+                                <rect key="frame" x="150" y="198" width="300" height="35"/>
                                 <color key="backgroundColor" red="0.51670103560000002" green="0.81048708550000004" blue="0.5639215917" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="UPLOAD AND SHARE SOUND FILE">
@@ -129,11 +129,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tw4-Xt-GQH">
-                                <rect key="frame" x="88" y="123" width="424" height="50"/>
+                                <rect key="frame" x="150" y="123" width="300" height="35"/>
                                 <color key="backgroundColor" red="0.51670103560000002" green="0.81048708550000004" blue="0.5639215917" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="dqw-kT-XeH"/>
-                                    <constraint firstAttribute="width" constant="424" id="uWG-Dz-f3P"/>
+                                    <constraint firstAttribute="height" constant="35" id="dqw-kT-XeH"/>
+                                    <constraint firstAttribute="width" constant="300" id="uWG-Dz-f3P"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Connect DROPBOX">
@@ -145,7 +145,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqH-1o-uGL">
-                                <rect key="frame" x="88" y="312" width="424" height="50"/>
+                                <rect key="frame" x="150" y="257" width="300" height="35"/>
                                 <color key="backgroundColor" red="0.51670103560000002" green="0.81048708550000004" blue="0.5639215917" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="UPLOAD AND SHARE VIDEO FILE">
@@ -156,24 +156,12 @@
                                     <action selector="btnUploadFileTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Xl2-yx-gZc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nD1-ow-Yfg">
-                                <rect key="frame" x="88" y="387" width="424" height="50"/>
-                                <color key="backgroundColor" red="0.51670103560000002" green="0.81048708550000004" blue="0.5639215917" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="UPLOAD AND SHARE PDF FILE">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnUploadFileTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cwg-wa-kqy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37v-6B-S3f">
-                                <rect key="frame" x="88" y="462" width="424" height="50"/>
+                            <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37v-6B-S3f">
+                                <rect key="frame" x="92" y="481" width="424" height="50"/>
                                 <color key="backgroundColor" red="0.51670103560000002" green="0.81048708550000004" blue="0.5639215917" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="424" id="WVv-bh-SaO"/>
-                                    <constraint firstAttribute="height" constant="50" id="eIl-Kg-Ltb"/>
+                                    <constraint firstAttribute="height" constant="50" id="DTW-Xp-ngp"/>
+                                    <constraint firstAttribute="width" constant="424" id="Yc0-dv-36H"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Logout DropBox">
@@ -184,33 +172,72 @@
                                     <action selector="logoutDropBox:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ilk-ks-nIy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fencing App Dropbox POC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ziv-TO-eid">
+                                <rect key="frame" x="192" y="45" width="216" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="jcx-Be-Uby"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chb-jK-Dz2">
+                                <rect key="frame" x="150" y="383" width="300" height="35"/>
+                                <color key="backgroundColor" red="0.81048708550000004" green="0.5643429042" blue="0.2096148152" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Completed Download">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDownloadedContent:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Sfp-oS-ls3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nD1-ow-Yfg">
+                                <rect key="frame" x="150" y="332" width="300" height="35"/>
+                                <color key="backgroundColor" red="0.81048708550000004" green="0.56434290420176414" blue="0.20961481520775854" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Show Downloading">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnUploadFileTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cwg-wa-kqy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.86666673419999996" green="0.81960791349999995" blue="0.73725491759999995" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="tw4-Xt-GQH" secondAttribute="centerX" id="0Ts-0j-DL9"/>
+                            <constraint firstItem="Chb-jK-Dz2" firstAttribute="leading" secondItem="nD1-ow-Yfg" secondAttribute="leading" id="3PS-pm-Irb"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="37v-6B-S3f" secondAttribute="bottom" constant="20" id="47I-dp-0Gq"/>
                             <constraint firstItem="bqH-1o-uGL" firstAttribute="top" secondItem="7cM-26-xRs" secondAttribute="bottom" constant="24" id="64J-TF-hCH"/>
+                            <constraint firstItem="Ziv-TO-eid" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="6Lh-cY-K0D"/>
                             <constraint firstItem="nD1-ow-Yfg" firstAttribute="leading" secondItem="bqH-1o-uGL" secondAttribute="leading" id="AGp-Fz-jwj"/>
                             <constraint firstItem="nD1-ow-Yfg" firstAttribute="height" secondItem="bqH-1o-uGL" secondAttribute="height" id="B5B-mG-cCC"/>
-                            <constraint firstItem="7cM-26-xRs" firstAttribute="top" secondItem="tw4-Xt-GQH" secondAttribute="bottom" constant="65" id="EMI-aa-kQr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="37v-6B-S3f" secondAttribute="trailing" constant="72" id="Mb2-oV-dap"/>
+                            <constraint firstItem="7cM-26-xRs" firstAttribute="top" secondItem="tw4-Xt-GQH" secondAttribute="bottom" constant="40" id="EMI-aa-kQr"/>
+                            <constraint firstItem="Chb-jK-Dz2" firstAttribute="trailing" secondItem="nD1-ow-Yfg" secondAttribute="trailing" id="P8l-d1-1eg"/>
                             <constraint firstItem="nD1-ow-Yfg" firstAttribute="trailing" secondItem="bqH-1o-uGL" secondAttribute="trailing" id="WVO-6p-cKD"/>
                             <constraint firstItem="bqH-1o-uGL" firstAttribute="trailing" secondItem="7cM-26-xRs" secondAttribute="trailing" id="Y7R-z7-8Yz"/>
                             <constraint firstItem="7cM-26-xRs" firstAttribute="leading" secondItem="tw4-Xt-GQH" secondAttribute="leading" id="YvW-KT-Rjo"/>
+                            <constraint firstItem="Chb-jK-Dz2" firstAttribute="height" secondItem="nD1-ow-Yfg" secondAttribute="height" id="Z7O-rh-Ybq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="37v-6B-S3f" secondAttribute="trailing" constant="64" id="agT-G8-NfQ"/>
                             <constraint firstItem="bqH-1o-uGL" firstAttribute="leading" secondItem="7cM-26-xRs" secondAttribute="leading" id="bTh-i3-wcL"/>
                             <constraint firstItem="7cM-26-xRs" firstAttribute="height" secondItem="tw4-Xt-GQH" secondAttribute="height" id="fI1-ci-WeN"/>
-                            <constraint firstItem="nD1-ow-Yfg" firstAttribute="top" secondItem="bqH-1o-uGL" secondAttribute="bottom" constant="25" id="gC0-Gz-dTw"/>
+                            <constraint firstItem="nD1-ow-Yfg" firstAttribute="top" secondItem="bqH-1o-uGL" secondAttribute="bottom" constant="40" id="gC0-Gz-dTw"/>
                             <constraint firstItem="tw4-Xt-GQH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="59" id="jzM-jy-1bU"/>
-                            <constraint firstItem="37v-6B-S3f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="72" id="nKv-ud-iWQ"/>
+                            <constraint firstItem="Ziv-TO-eid" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="45" id="mLU-vD-bcz"/>
+                            <constraint firstItem="37v-6B-S3f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="72" id="oLX-BE-njg"/>
                             <constraint firstItem="7cM-26-xRs" firstAttribute="trailing" secondItem="tw4-Xt-GQH" secondAttribute="trailing" id="rvW-bM-w67"/>
+                            <constraint firstItem="Chb-jK-Dz2" firstAttribute="top" secondItem="nD1-ow-Yfg" secondAttribute="bottom" constant="16" id="shl-MR-En3"/>
                             <constraint firstItem="bqH-1o-uGL" firstAttribute="height" secondItem="7cM-26-xRs" secondAttribute="height" id="tjs-Y4-Kh8"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="37v-6B-S3f" secondAttribute="bottom" constant="39" id="zuz-aL-v9Y"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Upload" id="8gZ-LS-32K"/>
                     <connections>
                         <outlet property="audioFileShareButton" destination="7cM-26-xRs" id="waa-0c-ipX"/>
                         <outlet property="dropBoxButton" destination="tw4-Xt-GQH" id="Tc9-sZ-Sdf"/>
-                        <outlet property="logoutDropBoxButton" destination="37v-6B-S3f" id="w7G-l8-pkl"/>
+                        <outlet property="logoutDropBoxButton" destination="Chb-jK-Dz2" id="gt9-69-COh"/>
                         <outlet property="textFileShareButton" destination="nD1-ow-Yfg" id="rmA-n4-JTI"/>
                         <outlet property="videoFileShareButton" destination="bqH-1o-uGL" id="fFJ-gf-PIV"/>
                     </connections>

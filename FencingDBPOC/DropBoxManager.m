@@ -160,8 +160,39 @@ static DropBoxManager *singletonManager = nil;
     relinkUserId = nil;
 }
 
+
+#pragma mark -
+#pragma mark Fileupload and Share Delegate
+
+- (void)restClient:(DBRestClient*)restClient loadedSharableLink:(NSString*)link forFile:(NSString*)path
+{
+    NSLog(@"link is %@", link);
+    
+    if([self.apiCallDelegate respondsToSelector:@selector(finishedGeneratingUrl:)])
+        [self.apiCallDelegate finishedGeneratingUrl:link];
+    
+    
+}
+- (void)restClient:(DBRestClient*)restClient loadSharableLinkFailedWithError:(NSError*)error
+{
+    NSLog(@"%@", [error localizedDescription]);
+    
+    if([self.apiCallDelegate respondsToSelector:@selector(failedGeneratingUrl:)])
+        [self.apiCallDelegate failedGeneratingUrl:[error localizedDescription]];
+    
+}
+
+
 #pragma mark -
 #pragma mark Fileupload
+
+-(void)uploadFileFromSourcePathAndShare:(NSString*)pstrSourcePath
+{
+    if([[DBSession sharedSession] isLinked])
+        [self.objRestClient loadSharableLinkForFile:pstrSourcePath shortUrl:NO];
+    else
+        [self checkForLink];
+}
 
 -(void)uploadFile
 {
@@ -181,8 +212,8 @@ static DropBoxManager *singletonManager = nil;
 
 - (void)restClient:(DBRestClient*)client uploadedFile:(NSString*)destPath from:(NSString*)srcPath metadata:(DBMetadata*)metadata
 {
-    if([self.apiCallDelegate respondsToSelector:@selector(finishedUploadFile)])
-        [self.apiCallDelegate finishedUploadFile];
+    if([self.apiCallDelegate respondsToSelector:@selector(finishedUploadFileForPath:)])
+        [self.apiCallDelegate finishedUploadFileForPath:metadata.path];
     
     NSLog(@"File uploaded successfully to path: %@", metadata.path);
 }

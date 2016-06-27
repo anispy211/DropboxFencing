@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B606D7F41D148BD300B494CC /* HCDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B606D7F01D148BD300B494CC /* HCDownloadCell.m */; };
+		B606D7F51D148BD300B494CC /* HCDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B606D7F21D148BD300B494CC /* HCDownloadViewController.m */; };
+		B606D7F61D148BD300B494CC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B606D7F31D148BD300B494CC /* README.md */; };
+		B639F1C61D13F3EB004C16B4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B639F1C51D13F3EB004C16B4 /* MBProgressHUD.m */; };
 		B6794F3D1D09EBEC00743670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F3C1D09EBEC00743670 /* main.m */; };
 		B6794F401D09EBEC00743670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F3F1D09EBEC00743670 /* AppDelegate.m */; };
 		B6794F431D09EBEC00743670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6794F421D09EBEC00743670 /* ViewController.m */; };
@@ -19,6 +23,16 @@
 		B6794F681D09F76200743670 /* DaBaDee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6794F671D09F76200743670 /* DaBaDee.mp3 */; };
 		B6794F6A1D09F99200743670 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6794F691D09F99200743670 /* QuartzCore.framework */; };
 		B6794F6C1D09F99900743670 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6794F6B1D09F99900743670 /* Security.framework */; };
+		B6EF732B1D197EB200FE6B61 /* DownloadedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF732A1D197EB200FE6B61 /* DownloadedTableViewController.m */; };
+		B6EF732E1D197EDB00FE6B61 /* DownloadedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF732D1D197EDB00FE6B61 /* DownloadedFile.m */; };
+		B6EF73301D197FB400FE6B61 /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EF732F1D197FB400FE6B61 /* audio.png */; };
+		B6EF73321D197FC000FE6B61 /* video.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B6EF73311D197FC000FE6B61 /* video.jpeg */; };
+		B6EF73331D1AC1D600FE6B61 /* starwars.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B6EF73281D1979A800FE6B61 /* starwars.mp4 */; };
+		B6EF73361D1AE14A00FE6B61 /* DownloadedCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF73351D1AE14A00FE6B61 /* DownloadedCellTableViewCell.m */; };
+		B6EF733B1D1AE9B000FE6B61 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EF73371D1AE9B000FE6B61 /* CoreMedia.framework */; };
+		B6EF733C1D1AE9B000FE6B61 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EF73381D1AE9B000FE6B61 /* MediaAccessibility.framework */; };
+		B6EF733D1D1AE9B000FE6B61 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EF73391D1AE9B000FE6B61 /* MediaPlayer.framework */; };
+		B6EF733E1D1AE9B000FE6B61 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EF733A1D1AE9B000FE6B61 /* MediaToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B606D7EF1D148BD300B494CC /* HCDownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDownloadCell.h; sourceTree = "<group>"; };
+		B606D7F01D148BD300B494CC /* HCDownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDownloadCell.m; sourceTree = "<group>"; };
+		B606D7F11D148BD300B494CC /* HCDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDownloadViewController.h; sourceTree = "<group>"; };
+		B606D7F21D148BD300B494CC /* HCDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDownloadViewController.m; sourceTree = "<group>"; };
+		B606D7F31D148BD300B494CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B639F1C41D13F3EB004C16B4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B639F1C51D13F3EB004C16B4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B6794F371D09EBEC00743670 /* FencingDBPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FencingDBPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6794F3B1D09EBEC00743670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6794F3C1D09EBEC00743670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +72,19 @@
 		B6794F671D09F76200743670 /* DaBaDee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DaBaDee.mp3; sourceTree = "<group>"; };
 		B6794F691D09F99200743670 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B6794F6B1D09F99900743670 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6EF73281D1979A800FE6B61 /* starwars.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = starwars.mp4; sourceTree = "<group>"; };
+		B6EF73291D197EB200FE6B61 /* DownloadedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadedTableViewController.h; sourceTree = "<group>"; };
+		B6EF732A1D197EB200FE6B61 /* DownloadedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadedTableViewController.m; sourceTree = "<group>"; };
+		B6EF732C1D197EDB00FE6B61 /* DownloadedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadedFile.h; sourceTree = "<group>"; };
+		B6EF732D1D197EDB00FE6B61 /* DownloadedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadedFile.m; sourceTree = "<group>"; };
+		B6EF732F1D197FB400FE6B61 /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		B6EF73311D197FC000FE6B61 /* video.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = video.jpeg; sourceTree = "<group>"; };
+		B6EF73341D1AE14A00FE6B61 /* DownloadedCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadedCellTableViewCell.h; sourceTree = "<group>"; };
+		B6EF73351D1AE14A00FE6B61 /* DownloadedCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadedCellTableViewCell.m; sourceTree = "<group>"; };
+		B6EF73371D1AE9B000FE6B61 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B6EF73381D1AE9B000FE6B61 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		B6EF73391D1AE9B000FE6B61 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B6EF733A1D1AE9B000FE6B61 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EF733B1D1AE9B000FE6B61 /* CoreMedia.framework in Frameworks */,
+				B6EF733C1D1AE9B000FE6B61 /* MediaAccessibility.framework in Frameworks */,
+				B6EF733D1D1AE9B000FE6B61 /* MediaPlayer.framework in Frameworks */,
+				B6EF733E1D1AE9B000FE6B61 /* MediaToolbox.framework in Frameworks */,
 				B6794F6C1D09F99900743670 /* Security.framework in Frameworks */,
 				B6794F6A1D09F99200743670 /* QuartzCore.framework in Frameworks */,
 				B6794F641D09EF6200743670 /* DropboxSDK.framework in Frameworks */,
@@ -74,9 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B606D7EE1D148BD300B494CC /* HCDownload-master */ = {
+			isa = PBXGroup;
+			children = (
+				B606D7EF1D148BD300B494CC /* HCDownloadCell.h */,
+				B606D7F01D148BD300B494CC /* HCDownloadCell.m */,
+				B606D7F11D148BD300B494CC /* HCDownloadViewController.h */,
+				B606D7F21D148BD300B494CC /* HCDownloadViewController.m */,
+				B606D7F31D148BD300B494CC /* README.md */,
+			);
+			path = "HCDownload-master";
+			sourceTree = "<group>";
+		};
+		B639F1C31D13F3EB004C16B4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B639F1C41D13F3EB004C16B4 /* MBProgressHUD.h */,
+				B639F1C51D13F3EB004C16B4 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		B6794F2E1D09EBEC00743670 = {
 			isa = PBXGroup;
 			children = (
+				B6EF73371D1AE9B000FE6B61 /* CoreMedia.framework */,
+				B6EF73381D1AE9B000FE6B61 /* MediaAccessibility.framework */,
+				B6EF73391D1AE9B000FE6B61 /* MediaPlayer.framework */,
+				B6EF733A1D1AE9B000FE6B61 /* MediaToolbox.framework */,
 				B6794F6B1D09F99900743670 /* Security.framework */,
 				B6794F691D09F99200743670 /* QuartzCore.framework */,
 				B6794F631D09EF6200743670 /* DropboxSDK.framework */,
@@ -98,6 +161,8 @@
 		B6794F391D09EBEC00743670 /* FencingDBPOC */ = {
 			isa = PBXGroup;
 			children = (
+				B606D7EE1D148BD300B494CC /* HCDownload-master */,
+				B639F1C31D13F3EB004C16B4 /* MBProgressHUD */,
 				B6794F3E1D09EBEC00743670 /* AppDelegate.h */,
 				B6794F3F1D09EBEC00743670 /* AppDelegate.m */,
 				B6794F411D09EBEC00743670 /* ViewController.h */,
@@ -105,7 +170,16 @@
 				B6794F441D09EBEC00743670 /* Main.storyboard */,
 				B6794F601D09EC2300743670 /* DropBoxManager.h */,
 				B6794F611D09EC2300743670 /* DropBoxManager.m */,
+				B6EF73291D197EB200FE6B61 /* DownloadedTableViewController.h */,
+				B6EF732A1D197EB200FE6B61 /* DownloadedTableViewController.m */,
+				B6EF73341D1AE14A00FE6B61 /* DownloadedCellTableViewCell.h */,
+				B6EF73351D1AE14A00FE6B61 /* DownloadedCellTableViewCell.m */,
+				B6EF732C1D197EDB00FE6B61 /* DownloadedFile.h */,
+				B6EF732D1D197EDB00FE6B61 /* DownloadedFile.m */,
+				B6EF73281D1979A800FE6B61 /* starwars.mp4 */,
+				B6EF73311D197FC000FE6B61 /* video.jpeg */,
 				B6794F671D09F76200743670 /* DaBaDee.mp3 */,
+				B6EF732F1D197FB400FE6B61 /* audio.png */,
 				B6794F471D09EBEC00743670 /* Images.xcassets */,
 				B6794F491D09EBEC00743670 /* LaunchScreen.xib */,
 				B6794F3A1D09EBEC00743670 /* Supporting Files */,
@@ -220,9 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6794F461D09EBEC00743670 /* Main.storyboard in Resources */,
+				B6EF73321D197FC000FE6B61 /* video.jpeg in Resources */,
 				B6794F4B1D09EBEC00743670 /* LaunchScreen.xib in Resources */,
 				B6794F481D09EBEC00743670 /* Images.xcassets in Resources */,
 				B6794F681D09F76200743670 /* DaBaDee.mp3 in Resources */,
+				B6EF73301D197FB400FE6B61 /* audio.png in Resources */,
+				B6EF73331D1AC1D600FE6B61 /* starwars.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,8 +319,15 @@
 			files = (
 				B6794F621D09EC2300743670 /* DropBoxManager.m in Sources */,
 				B6794F431D09EBEC00743670 /* ViewController.m in Sources */,
+				B6EF732B1D197EB200FE6B61 /* DownloadedTableViewController.m in Sources */,
+				B639F1C61D13F3EB004C16B4 /* MBProgressHUD.m in Sources */,
+				B6EF732E1D197EDB00FE6B61 /* DownloadedFile.m in Sources */,
 				B6794F401D09EBEC00743670 /* AppDelegate.m in Sources */,
+				B606D7F41D148BD300B494CC /* HCDownloadCell.m in Sources */,
 				B6794F3D1D09EBEC00743670 /* main.m in Sources */,
+				B606D7F61D148BD300B494CC /* README.md in Sources */,
+				B6EF73361D1AE14A00FE6B61 /* DownloadedCellTableViewCell.m in Sources */,
+				B606D7F51D148BD300B494CC /* HCDownloadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aadarsh Shetty (MV8V6S5J92)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FencingDBPOC",
@@ -372,6 +457,7 @@
 				INFOPLIST_FILE = FencingDBPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60214d08-4de6-4ab4-8225-b5eed2189186";
 			};
 			name = Debug;
 		};
@@ -379,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aadarsh Shetty (MV8V6S5J92)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FencingDBPOC",
@@ -386,6 +473,7 @@
 				INFOPLIST_FILE = FencingDBPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60214d08-4de6-4ab4-8225-b5eed2189186";
 			};
 			name = Release;
 		};
